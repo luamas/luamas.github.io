@@ -10,12 +10,12 @@ tags: jekyll gem gitpage
 {:toc}
 
 一直都想搭建一个长久可以使用的博客,之前自己使用WordPress搭建过,由于服务器经常会变动,后来自己的博客也就搁置了,所以自己研究了下基于git page的静态博客,在此感谢[GyH](http://https://github.com/Gaohaoyang) ,这里使用了其主体模板,有改变.
-
 自己采用mac系统搭建
-安装过程如下
+
 
 
 ## 安装过程
+
 brew需要翻墙,要么自己改源,具体谷歌或者百度
 
 ### 安装Ruby
@@ -27,7 +27,7 @@ brew install ruby
 ### 用RubyGems安装Jekyll
 
 ```
-gem install jeyyll
+gem install jekyll
 ```
 
 ### 创建博客

@@ -7,7 +7,7 @@
 
 # Site settings
 title: 温馨小站
-brief-intro: 点点滴滴的记录
+brief-intro: #点点滴滴的记录
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://luamas.github.io" # the base hostname & protocol for your site
 
