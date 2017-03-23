@@ -1,5 +1,5 @@
 ---
-title: Angular2学习笔记(三) Angular2 用户输入
+title: Angular2学习笔记(四) Angular2 用户输入
 layout: post
 date: '2017-03-23 00:00:00'
 categories: angular2 typescript
