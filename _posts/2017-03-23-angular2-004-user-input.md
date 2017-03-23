@@ -1,7 +1,7 @@
 ---
 title: Angular2学习笔记(三) Angular2 用户输入
 layout: post
-date: '2017-03-22 00:00:00'
+date: '2017-03-23 00:00:00'
 categories: angular2 typescript
 tags: angular2 angular-cli typescript
 ---
@@ -159,7 +159,7 @@ loop-back.component.html代码
 {{box.value}}
 ```
 
-这个模板引用变量名叫box，在<input>元素声明，它引用<input>元素本身。 代码使用box获得输入元素的value值，并通过插值表达式把它显示.
+这个模板引用变量名叫box，在`<input>`元素声明，它引用`<input>`元素本身。 代码使用box获得输入元素的value值，并通过插值表达式把它显示.
 
 这个模板完全是完全自包含的。它没有绑定到组件，组件也没做任何事情.
 
