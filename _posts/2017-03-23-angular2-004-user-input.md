@@ -4,6 +4,8 @@ layout: post
 date: '2017-03-23 00:00:00'
 categories: angular2 typescript
 tags: angular2 angular-cli typescript
+author: luamas
+original: true
 ---
 
 * content

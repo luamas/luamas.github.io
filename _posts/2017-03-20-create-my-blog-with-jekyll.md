@@ -4,6 +4,8 @@ layout: post
 date: '2017-03-20 00:00:00'
 categories: jekyll
 tags: jekyll gem gitpage
+author: luamas
+original: true
 ---
 
 * content

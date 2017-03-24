@@ -33,6 +33,10 @@ layout: default
         <article itemscope itemtype="http://schema.org/BlogPosting">
         {{content}}
         </article>
+        {% if page.original %}
+        <br>
+        如要转载，请保持本文完整，并注明{% if page.author %}作者{{ page.author }}和{% endif %}本文原始地址：<a href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a>
+        {% endif %}
         <hr>
 
         {% assign hasSimilar = '' %}

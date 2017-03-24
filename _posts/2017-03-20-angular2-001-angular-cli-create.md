@@ -4,6 +4,8 @@ layout: post
 date: '2017-03-20 00:00:00'
 categories: angular2
 tags: angular2 angular-cli
+author: luamas
+original: true
 ---
 
 * content

@@ -4,6 +4,8 @@ layout: post
 date: '2017-03-21 00:00:00'
 categories: typescript
 tags: typescript
+author: luamas
+original: true
 ---
 
 * content
