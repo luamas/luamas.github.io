@@ -328,3 +328,5 @@ my-skill.component.html
 
 
 [查看源代码](https://github.com/luamas/angular2-sample)
+
+[演示地址](http://blog.luamas.com/angular2-sample)
