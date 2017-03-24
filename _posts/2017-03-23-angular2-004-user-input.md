@@ -18,7 +18,7 @@ original: true
 要绑定 DOM 事件，只要把 DOM 事件的名字包裹在圆括号中，然后用放在引号中的模板语句对它赋值就可以了
 打开我们之前的my-app应用并在命令行,创建一个component
 
-```
+```shell
 ng g c input/clickMe
 ```
 
@@ -40,14 +40,14 @@ g代表generate,c代表component这个是cli的简写命令
 
 修改click-me.component.html模板
 
-```
+```html
 <button (click)="onClickMe()">点击我!</button>
 {{clickMessage}}
 ```
 
 修改组件click-me.component.ts文件为以下内容
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -65,7 +65,7 @@ export class ClickMeComponent {
 
 在首页html中使用其组件
 
-```
+```html
 <h1>================第一课内容================</h1>
   <app-root></app-root>
 
@@ -85,19 +85,19 @@ DOM 事件可以携带可能对组件有用的信息。 本节将展示如何绑
 
 同样,还是继续创建一个component
 
-```
+```shell
 ng g c input/keyup
 ```
 
 修改模板文件keyup.component.html
 
-```
+```html
 <input (keyup)="onKey($event)">
 {{values}}
 ```
 
 修改组件文件keyup.component.ts
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -127,7 +127,7 @@ export class KeyupComponent {
 
 index.html增加以下内容,这些内容在以后章节中就不在重复说明了.
 
-```
+```html
 <h2>2.通过$event对象取得用户输入</h2>
 <app-keyup></app-keyup>
 ```
@@ -148,7 +148,7 @@ bootstrap: [AppComponent, ClickMeComponent, KeyupComponent]
 
 老步骤创建一个component
 
-```
+```shell
 ng g c input/loopBack
 ```
 
@@ -156,7 +156,7 @@ ng g c input/loopBack
 
 loop-back.component.html代码
 
-```
+```html
 <input #box (keyup)="0">
 {{box.value}}
 ```
@@ -169,7 +169,7 @@ keyup事件绑定到了数字0，这是可能是最短的模板语句。 这个�
 
 从模板变量获得输入框比通过$event对象更加简单。 下面的代码重写了之前keyup示例，它使用变量来获得用户输入
 
-```
+```shell
 ng g c input/keyup2
 ```
 
@@ -177,7 +177,7 @@ ng g c input/keyup2
 
 keyup2.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -195,7 +195,7 @@ export class Keyup2Component {
 
 keyup2.component.html
 
-```
+```html
 <input #box (keyup)="onKey(box.value)">
 {{values}}
 ```
@@ -206,7 +206,7 @@ keyup2.component.html
 
 更简单的方法是：绑定到 Angular 的keyup.enter 模拟事件。 然后，只有当用户敲回车键时，Angular 才会调用事件处理器。
 
-```
+```shell
 ng g c input/keyup3
 ```
 
@@ -214,7 +214,7 @@ ng g c input/keyup3
 
 keyup3.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -230,7 +230,7 @@ export class Keyup3Component {
 
 keyup3.component.html
 
-```
+```html
 <<input #box (keyup.enter)="onEnter(box.value)">
 {{value}}
 ```
@@ -241,7 +241,7 @@ keyup3.component.html
 ### 通过失去焦点事件(blur)过滤
 
 
-```
+```shell
 ng g c input/keyup4
 ```
 
@@ -249,7 +249,7 @@ ng g c input/keyup4
 
 keyup4.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -265,7 +265,7 @@ export class Keyup4Component {
 
 keyup4.component.html
 
-```
+```html
 <input #box
        (keyup.enter)="update(box.value)"
        (blur)="update(box.value)">
@@ -281,7 +281,7 @@ keyup4.component.html
 前面一节我们学习了数据展示,下面我们就使用键盘输入和数据展示写一个示例
 
 
-```
+```shell
 ng g c input/MySkill
 ```
 
@@ -289,7 +289,7 @@ ng g c input/MySkill
 
 my-skill.component.ts
 
-```
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -314,7 +314,7 @@ export class MySkillComponent {
 
 my-skill.component.html
 
-```
+```html
 <p>{{title}}</p>
 <input #newSkill
        (keyup.enter)="addSkill(newSkill.value)"

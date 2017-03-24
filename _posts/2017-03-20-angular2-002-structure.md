@@ -83,10 +83,12 @@ export class AppModule { }
 组件负责控制屏幕上的一小块区域，我们称之为视图。
 
 利用angular-cli创建一个HeroListComponent组件
-```
+
+```shell
 ng g component HeroListComponent
 ```
-```
+
+```ts
 import { Component } from '@angular/core';
 
 //Component装饰器
@@ -108,7 +110,8 @@ export class AppComponent {
 我们通过组件的自带的模板来定义组件视图。模板以 HTML 形式存在，告诉 Angular 如何渲染组件。
 
 多数情况下，模板看起来很像标准 HTML，当然也有一点不同的地方。
-```
+
+```html
 <h1>
   {{title}}
 </h1>

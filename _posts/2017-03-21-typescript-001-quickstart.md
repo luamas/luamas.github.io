@@ -13,7 +13,7 @@ original: true
 
 ### 安装TypeScript
 
-```
+```shell
 npm install -g typescript
 ```
 
@@ -25,7 +25,7 @@ npm install -g typescript
 
 在编辑器中创建greeter.ts文件，并输入以下JavaScript代码：
 
-```
+```ts
 function greeter(person :any) {
     return "Hello, " + person;
 }
@@ -35,12 +35,12 @@ document.body.innerHTML = greeter(user);
 
 编译文件
 
-```
+```shell
 tsc greeter.ts
 ```
 
 编译后
-```
+```js
 function greeter(person) {
     return "Hello, " + person;
 }
@@ -52,7 +52,7 @@ document.body.innerHTML = greeter(user);
 
 现在我们对person增加类型
 
-```
+```ts
 function greeter(person: string) {
     return "Hello, " + person;
 }
@@ -71,7 +71,7 @@ greeter.ts(17,35): error TS2345: Argument of type 'number[]' is not assignable t
 
 TypeScript创建一个接口,它有两个属性,其类型为string类型,具体看文件interface-sample.ts
 
-```
+```ts
 interface Person {
     firstName: string;
     lastName: string;
@@ -87,7 +87,7 @@ document.body.innerHTML = greeter(user);
 
 编译后文件
 
-```
+```js
 function greeter(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
@@ -99,7 +99,7 @@ document.body.innerHTML = greeter(user);
 
 TypeScript是面向对象语言,同样也具有class概念,文件查看
 
-```
+```ts
 class Student {
     fullName: string;
     constructor(public firstName, public middleInitial, public lastName) {
@@ -122,7 +122,7 @@ document.body.innerHTML = greeter(user);
 
 编译后
 
-```
+```js
 var Student = (function () {
     function Student(firstName, middleInitial, lastName) {
         this.firstName = firstName;
@@ -140,7 +140,7 @@ document.body.innerHTML = greeter(user);
 ```
 
 创建greeter.html页面,代码如下
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

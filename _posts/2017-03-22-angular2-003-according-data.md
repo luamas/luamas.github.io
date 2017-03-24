@@ -17,7 +17,7 @@ original: true
 
 前面我们已经介绍了如何安装nodejs和angular-cli,下面我们默认都已经安装了angular-cli,首先来创建一个名为my-app的应用
 
-```
+```shell
 ng new my-app
 ```
 
@@ -28,7 +28,7 @@ ng new my-app
 
 + app.component.html(模板文件)
 
-```
+```html
 <h1>{{title}}</h1>
 <h2>介绍: {{introduction}}</h2>
 <h2>我的技能:</h2>
@@ -56,7 +56,7 @@ ng new my-app
 
 + 增加skill.ts文件
 
-```
+```ts
 export class Skill {
   id: number;
   name: string;
@@ -71,7 +71,7 @@ export class Skill {
 
 + app.component.ts文件如下
 
-```
+```ts
 import { Component } from '@angular/core';
 import { Skill } from './skill';
 @Component({
@@ -105,7 +105,7 @@ export class AppComponent {
 
 + app.component.css 我们为其增加模板样式
 
-```
+```css
 h1 {color: red}
 h2 {font-size: large;}
 .show2 {

@@ -22,31 +22,31 @@ brew需要翻墙,要么自己改源,具体谷歌或者百度
 
 ### 安装Ruby
 
-```
+```shell
 brew install ruby
 ```
 
 ### 用RubyGems安装Jekyll
 
-```
+```shell
 gem install jekyll
 ```
 
 ### 创建博客
 
-```
+```shell
 jekyll new luamas.github.com
 ```
 将主体替换到此文件夹,然后定制化自己的页面,并修改_config.yml配置文件的一些配置
 
 ### 启动
-```
+```shell
 jekyll serve #或者jekyll s
 ```
 ### 利用jekyll-admin插件写文章
 访问 http://127.0.0.1:4000/admin 即可写文章
 上面需要自己在Gemfile中添加如下依赖,并注释掉minima(默认主题)依赖,
-```
+```shell
 gem 'jekyll-admin', group: :jekyll_plugins
 ```
 commit所有文件到本地git到仓库,然后push至luamas.github.com仓库

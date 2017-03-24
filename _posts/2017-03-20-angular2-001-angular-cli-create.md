@@ -14,6 +14,7 @@ original: true
 
 ### 首要工具安装 [nodejs](https://nodejs.org/en/)和npm(安装好nodejs后会自带)
 更改npm为国内镜像(国外比较慢)
+
 ```
 npm config set registry https://registry.npm.taobao.org 
 npm info underscore （如果上面配置正确这个命令会有字符串response）
@@ -22,16 +23,19 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
 
 
 ### 安装angular-cli工具
+
 ```
 npm install -g @angular/cli
 ```
 
 ### 创建项目
 这里可能会比较慢,稍等下
+
 ```
 ng new my-app
 ```
 ### 启动项目
+
 ```
 cd my-app
 ng serve
