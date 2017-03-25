@@ -68,7 +68,11 @@ providers:[{ provide: Logger2, useExisting: Logger1 }]
 ```
 
 #### useValue属性
-useValue,参数
+useValue,值或对象替换,如
+
+```
+{ provide: MyValue, useValue: 41 }
+```
 
 #### useFactory属性
 useFactory,使用工厂注入
