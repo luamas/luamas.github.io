@@ -315,12 +315,12 @@ export class MySkillComponent {
 my-skill.component.html
 
 ```html
-<p>{{title}}</p>
+<p>{ {title}}</p>
 <input #newSkill
        (keyup.enter)="addSkill(newSkill.value)"
        (blur)="addSkill(newSkill.value); newSkill.value='' ">
 <button (click)="addSkill(newSkill.value)">增加</button>
-<ul><li *ngFor="let skill of skills">{{skill}}</li></ul>
+<ul><li *ngFor="let skill of skills">{ {skill}}</li></ul>
 ```
 
 
