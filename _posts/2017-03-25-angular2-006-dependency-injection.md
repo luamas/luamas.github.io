@@ -22,6 +22,9 @@ java里面叫注解,angular官方称其为装饰器.其最后会生成json文件
 * 装饰器类型
 
 
+
+
+
 |装饰器|作用|重要|
 |:-:|:-:|:-:|
 |[`Component`](https://angular.cn/docs/ts/latest/api/core/index/Component-decorator.html)|标记类作为组件并收集组件配置元数据(继承Directive)|*****|
