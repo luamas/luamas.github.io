@@ -11,6 +11,8 @@ original: true
 * content
 {:toc}
 
+{% raw %}
+
 前几节是Angular2和TypeScript分开学的,以后准备边学Angular2遍学TypeScript,只有边学边用,才会更深刻的理解TypeScript,好,下面直奔主题
 
 ### 创建应用
@@ -43,7 +45,7 @@ ng new my-app
 <ul class="show2">
   <!--这里采用TypeScript语法遍历skills-->
   <li *ngFor="let skill of skills2">
-    id: { { skill.id }} ,名称: { { skill.name }}
+    id: {{ skill.id }} ,名称: {{ skill.name }}
   </li>
 </ul>
 
@@ -51,7 +53,7 @@ ng new my-app
 <p *ngIf="skills1.length < 3">您不到三种技能,加油哦!</p>
 ```
 
-上面的{ {title}}和{ {introduction}},title和introduction为组件的变量,其实就是输出变量,当然是动态的了(当变量变化自动更新页面),
+上面的{{title}}和{{introduction}},title和introduction为组件的变量,其实就是输出变量,当然是动态的了(当变量变化自动更新页面),
 *ngFor="let skill of skills1"代表循环变量skills1,*ngIf="skills1.length >= 3"同理是判断语句
 
 + 增加skill.ts文件
@@ -131,3 +133,5 @@ h2 {font-size: large;}
 [查看源代码](https://github.com/luamas/angular2-sample)
 
 [演示地址](http://blog.luamas.com/angular2-sample)
+
+{% endraw %}

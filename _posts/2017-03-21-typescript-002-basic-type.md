@@ -198,7 +198,7 @@ function infiniteLoop(): never {
 }
 ```
 
-
+{% raw %}
 
 # 类型断言
 
@@ -226,4 +226,7 @@ let strLength2: number = (someValue2 as string).length;
 + 查看[base-type.js](https://github.com/luamas/typescript-sample/blob/master/002/base-type.js)
 
 [源码地址](https://github.com/luamas/typescript-sample)
+
+
+{% endraw %}
 

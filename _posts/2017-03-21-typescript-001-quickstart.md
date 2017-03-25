@@ -11,6 +11,9 @@ original: true
 * content
 {:toc}
 
+
+{% raw %}
+
 ### 安装TypeScript
 
 ```shell
@@ -156,4 +159,6 @@ document.body.innerHTML = greeter(user);
 打开浏览后则会出现 Hello, Jane User
 
 [源码地址](https://github.com/luamas/typescript-sample)
+
+{% endraw %}
 

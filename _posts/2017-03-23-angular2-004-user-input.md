@@ -11,6 +11,8 @@ original: true
 * content
 {:toc}
 
+{% raw %}
+
 用户输入触发 DOM 事件。我们通过事件绑定来监听它们，把更新过的数据导入回我们的组件和 model。
 
 ### 输入事件绑定
@@ -315,12 +317,12 @@ export class MySkillComponent {
 my-skill.component.html
 
 ```html
-<p>{ {title}}</p>
+<p>{{title}}</p>
 <input #newSkill
        (keyup.enter)="addSkill(newSkill.value)"
        (blur)="addSkill(newSkill.value); newSkill.value='' ">
 <button (click)="addSkill(newSkill.value)">增加</button>
-<ul><li *ngFor="let skill of skills">{ {skill}}</li></ul>
+<ul><li *ngFor="let skill of skills">{{skill}}</li></ul>
 ```
 
 
@@ -332,3 +334,5 @@ my-skill.component.html
 [查看源代码](https://github.com/luamas/angular2-sample)
 
 [演示地址](http://blog.luamas.com/angular2-sample)
+
+{% endraw %}
