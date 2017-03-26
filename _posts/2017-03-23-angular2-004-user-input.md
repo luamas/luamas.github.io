@@ -331,7 +331,7 @@ my-skill.component.html
 我们用cli创建组件的的时候一定要用驼峰命名,这样ng-cli将用 - 使其分割,开始的首字母不区分大小写比如clickMe这个c,大小写无所谓,因为cli会自己处理
 
 
-[查看源代码](https://github.com/luamas/angular2-sample)
+[查看源代码](https://github.com/luamas/angular2-sample/tree/v1)
 
 [演示地址](http://blog.luamas.com/angular2-sample)
 

@@ -130,7 +130,7 @@ h2 {font-size: large;}
 #### 注意
 我们要使用import的时候一定要export一下,否则无法使用
 
-[查看源代码](https://github.com/luamas/angular2-sample)
+[查看源代码](https://github.com/luamas/angular2-sample/tree/v1)
 
 [演示地址](http://blog.luamas.com/angular2-sample)
 

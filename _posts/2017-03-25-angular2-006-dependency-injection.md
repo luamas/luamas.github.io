@@ -137,7 +137,7 @@ providers: [
 <br>
 
 
-[查看源代码](https://github.com/luamas/angular2-sample)
+[查看源代码](https://github.com/luamas/angular2-sample/tree/v1)
 
 [演示地址](http://blog.luamas.com/angular2-sample)
 
