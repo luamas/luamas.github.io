@@ -278,11 +278,11 @@ export class AppModule { }
 
 [根模块中文官方文档](https://angular.cn/docs/ts/latest/guide/appmodule.html)
 
-[根模块中文官方文档](https://angular.io/docs/ts/latest/guide/appmodule.html)
+[根模块英文官方文档](https://angular.io/docs/ts/latest/guide/appmodule.html)
 
 [模块中文官方文档](https://angular.cn/docs/ts/latest/guide/ngmodule.html)
 
-[模块中文官方文档](https://angular.io/docs/ts/latest/guide/ngmodule.html)
+[模块中英官方文档](https://angular.io/docs/ts/latest/guide/ngmodule.html)
 
 <br>
 
