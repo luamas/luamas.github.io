@@ -96,7 +96,7 @@ ionic cordova run的命令集合
     --buildConfig ............ Use the specified Cordova build configuration
 
 
-[查看源代码](https://github.com/luamas/ionic3-sample/l1)
+[查看源代码](https://github.com/luamas/ionic3-sample/tree/l1)
 
 {% endraw %}
 
