@@ -1,7 +1,7 @@
 ---
 title: Docker 安装MongoDB分片集群
 layout: post
-date: '2017-05-10 00:00:00'
+date: '2017-06-22 00:00:00'
 categories: docker MongoDB
 tags: docker MongoDB
 author: luamas
