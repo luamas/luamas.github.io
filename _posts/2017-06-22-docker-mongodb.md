@@ -77,6 +77,9 @@ docker-compose up -d
 ```
 docker-compose exec csrs1 mongo --port 27019
 rs.initiate()
+var cfg = rs.conf()
+cfg.members[0].host = 'csrs1:27019'
+rs.reconfig(cfg)
 rs.add('csrs2:27019')
 rs.add('csrs3:27019')
 rs.status() //查看状态
