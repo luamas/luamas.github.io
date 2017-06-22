@@ -94,7 +94,7 @@ var cfg = rs.conf()
 cfg.members[0].host = 'shrs1:27018'
 rs.reconfig(cfg)
 rs.add('shrs2:27018')
-rs.add('shrs3:27018')
+rs.addArb('shrs3:27018') //作为仲裁使用，实际中一主，两副，一仲裁
 rs.status() //查看状态
 exit
 ```
@@ -128,6 +128,16 @@ sudo chown 999 keyfile  //这个一定要执行，否则还是没有权限
 
 ```
 docker-compose exec mongos mongo
+use admin
+db.createUser( {
+ user: "test",
+ pwd: "test",
+ roles: [ { role: "root", db: "admin" } ]
+}); //我们给到root权限，具体有什么权限可以查看官方文档
+db.auth("test","test") //验证用户，返回1代表正确
+exit
+
+docker-compose exec shrs1 mongo --port 27018
 use admin
 db.createUser( {
  user: "test",
