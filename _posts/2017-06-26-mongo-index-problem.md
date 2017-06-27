@@ -19,6 +19,18 @@ original: true
 这个原因基本是由于索引引起的问题的，所以增加响应的查询索引即可
 
 
+由于mongo每天会产生很大的Cache，导致内存一直在消耗中，所以建议增加计划任务去清理Cache。
+
+```
+sysctl -w vm.drop_caches=1
+```
+
+以下是每天00:00的计划任务
+
+```
+00 0 * * * root  sysctl -w vm.drop_caches=1
+```
+
 
 
 
