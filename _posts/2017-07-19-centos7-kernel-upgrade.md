@@ -39,7 +39,8 @@ reboot
 
 最后恢复GRUB_DEFAULT的值，这里不恢复也可以
 ```
-GRUB_DEFAULT=saved
+# GRUB_DEFAULT=saved
+vim /etc/default/grub
 reboot
 ```
 
