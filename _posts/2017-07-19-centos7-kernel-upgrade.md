@@ -31,17 +31,18 @@ original: true
 rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 yum --enablerepo=elrepo-kernel install kernel-lt -y
-#重启
-reboot
-```
-
-然后修改默认启动方式
-```
-#修改GRUB_DEFAULT为0
+#然后修改默认启动方式,修改GRUB_DEFAULT为0
 vim /etc/default/grub
 grub2-mkconfig -o /boot/grub2/grub.cfg
 reboot
 ```
+
+最后恢复GRUB_DEFAULT的值，这里不恢复也可以
+```
+GRUB_DEFAULT=saved
+reboot
+```
+
 
 
 查看下内核`uname -r`
