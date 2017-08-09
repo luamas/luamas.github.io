@@ -1,9 +1,9 @@
 ---
-title: LDAPSoft-LDAP-Admin-Tool注册码
+title: LDAPSoft-LDAP-Admin-Tool key
 layout: post
 date: '2017-08-09 00:00:00'
-categories: LDAP 注册码
-tags: 注册码 LDAP
+categories: LDAP key
+tags: key LDAP
 author: luamas
 original: true
 ---
