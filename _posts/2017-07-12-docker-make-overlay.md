@@ -1,5 +1,5 @@
 ---
-title: gitlab-runner问题解决之Cannot create container for service gitlab-runner: mkdir /var/lib/docker/overlay
+title: gitlab-runner问题解决之Cannot create container。。。
 layout: post
 date: '2017-07-12 00:00:00'
 categories: MongoDB
