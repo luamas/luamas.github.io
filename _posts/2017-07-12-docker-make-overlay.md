@@ -1,5 +1,5 @@
 ---
-title: gitlab-runner问题
+title: gitlabrunner问题
 layout: post
 date: '2017-07-12 00:00:00'
 categories: MongoDB
