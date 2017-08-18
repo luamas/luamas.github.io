@@ -1,7 +1,7 @@
 ---
 title: Angular2学习笔记(二) angular2结构
 layout: post
-date: '2017-03-20 00:00:00'
+date: '2017-03-20 02:00:00'
 categories: angular2
 tags: angular2 angular-cli
 author: luamas
