@@ -14,11 +14,8 @@ original: true
 
 
 这回直接进入4.x时代学习,其实和2.x没啥区别,具体升级步骤可以查看下面链接,或者直接克隆源代码
-{% endraw %}
 
 <{{site.url}}/2017/03/26/angular4-angular2-upgrade>
-
-{% raw %}
 
 
 
