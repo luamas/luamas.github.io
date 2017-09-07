@@ -11,8 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
-
 一直都想搭建一个长久可以使用的博客,之前自己使用WordPress搭建过,由于服务器经常会变动,后来自己的博客也就搁置了,所以自己研究了下基于git page的静态博客,在此感谢[GyH](http://https://github.com/Gaohaoyang) ,这里使用了其主体模板,有改变.
 自己采用mac系统搭建
 
@@ -56,4 +54,3 @@ commit所有文件到本地git到仓库,然后push至luamas.github.com仓库
 绑定自己的域名
 增加CNAME文件,并将自己要绑定域名写入CNAME文件中,然后去域名中心用cname方式解析
 
-{% endraw %}

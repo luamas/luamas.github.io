@@ -11,8 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
-
 今天在docker下运行gitlab-runner的集成环境的时候总是报错，换了n种方案依旧不可以。后来怀疑是内核问题，果断升级了下
 下面是升级记录
 
@@ -53,8 +51,4 @@ reboot
 
 至此结束
 
-
-
-
-{% endraw %}
 

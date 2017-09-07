@@ -11,8 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
-
 
 采用cli方式安装,安装之前需要自行安装nodejs,以及ios和android开发环境
 
@@ -98,5 +96,4 @@ ionic cordova run的命令集合
 
 [查看源代码](https://github.com/luamas/ionic3-sample/tree/l1)
 
-{% endraw %}
 

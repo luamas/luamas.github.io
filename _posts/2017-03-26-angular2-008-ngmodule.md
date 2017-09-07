@@ -11,9 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
-
-
 前几节一直都把所有用到的类放在了`AppModule`,那么这个到底是什么呢?其实它是angular2的根模块.
 当然我们可以给他起别的名字,但是为了规范我们都将模块起名为`AppModule`.
 
@@ -290,4 +287,3 @@ export class AppModule { }
 
 [演示地址](http://blog.luamas.com/angular2-sample)
 
-{% endraw %}

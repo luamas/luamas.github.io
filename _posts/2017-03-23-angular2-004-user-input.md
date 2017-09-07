@@ -11,8 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
-
 用户输入触发 DOM 事件。我们通过事件绑定来监听它们，把更新过的数据导入回我们的组件和 model。
 
 ### 输入事件绑定
@@ -335,4 +333,3 @@ my-skill.component.html
 
 [演示地址](http://blog.luamas.com/angular2-sample)
 
-{% endraw %}

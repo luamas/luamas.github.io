@@ -11,8 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
-
 前几节是Angular2和TypeScript分开学的,以后准备边学Angular2遍学TypeScript,只有边学边用,才会更深刻的理解TypeScript,好,下面直奔主题
 
 ### 创建应用
@@ -134,4 +132,3 @@ h2 {font-size: large;}
 
 [演示地址](http://blog.luamas.com/angular2-sample)
 
-{% endraw %}

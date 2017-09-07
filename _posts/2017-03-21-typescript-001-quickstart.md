@@ -12,8 +12,6 @@ original: true
 {:toc}
 
 
-{% raw %}
-
 ### 安装TypeScript
 
 ```shell
@@ -160,5 +158,4 @@ document.body.innerHTML = greeter(user);
 
 [源码地址](https://github.com/luamas/typescript-sample)
 
-{% endraw %}
 

@@ -11,7 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
 
 
 ### 什么是模板语法
@@ -492,4 +491,3 @@ The current hero's name is {{currentHero?.firstName}}
 
 
 
-{% endraw %}

@@ -11,8 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
-
 有个应用程序使用的是mongo数据库，其中有个excel的导出功能，因为是小应用，基本属于全库的导出。数据量也就是几万条，外加统计。优化前cpu总是99%
 
 
@@ -32,7 +30,4 @@ sysctl -w vm.drop_caches=1
 ```
 
 
-
-
-{% endraw %}
 

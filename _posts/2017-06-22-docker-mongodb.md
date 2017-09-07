@@ -11,7 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
 
 docker下面做分片集群看似简单，其实坑还是很多的，下面总结下。
 
@@ -207,5 +206,4 @@ services:
 
 至此结束
 
-{% endraw %}
 

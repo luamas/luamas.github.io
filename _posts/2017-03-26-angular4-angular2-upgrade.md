@@ -11,8 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
-
 angular4终于在两天前发布了正式版本,那么怎么升级呢?其实angular2和angular4之间属于平滑过渡,并不像1和2之间颠覆性的重写代码.
 
 
@@ -60,4 +58,3 @@ npm-check -u
     ```
 
 
-{% endraw %}

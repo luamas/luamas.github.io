@@ -11,7 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
 
 在java的世界中我们有spring的`DI`神器,而在angular的世界中我们同样有`DI`,由于这里文章篇幅偏大,只捡主要的讲解,其他的信息可参考最后给出的链接
 
@@ -141,4 +140,3 @@ providers: [
 
 [演示地址](http://blog.luamas.com/angular2-sample)
 
-{% endraw %}

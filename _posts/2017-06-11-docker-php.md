@@ -11,8 +11,6 @@ original: true
 * content
 {:toc}
 
-{% raw %}
-
 ## 定义Dockerfile,采用官方php镜像安装，下面安装了拓展:
 
 ```bash
@@ -79,5 +77,4 @@ php:
 
 这样在我们的php连接数据的host可以采用mysql去代替
 
-{% endraw %}
 
