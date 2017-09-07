@@ -12,7 +12,6 @@ original: true
 {:toc}
 
 {% raw %}
-
 ### 首要工具安装 [nodejs](https://nodejs.org/en/)和npm(安装好nodejs后会自带)
 更改npm为国内镜像(国外比较慢)
 
@@ -112,5 +111,4 @@ README.md
 
 tslint.json	
 给TSLint和Codelyzer用的配置信息，当运行ng lint时会用到。 Lint功能可以帮你保持代码风格的统一。
-
 {% endraw %}
