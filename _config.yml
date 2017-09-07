@@ -11,6 +11,7 @@ brief-intro: #点点滴滴的记录
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.luamas.com" # the base hostname & protocol for your site
 
+
 permalink: /:year/:month/:day/:title/
 
 # other links
