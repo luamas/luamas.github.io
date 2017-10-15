@@ -27,3 +27,5 @@ Activation code: STARTTIMEGMT1502279970386-1503373975122
 
 
 `Activation code:`需要自己计算公式为：STARTTIMEGMT + 13位毫秒时间戳 + 过期时间（这里可以直接填写1503373975122）
+
+[下载注册机](https://uploadocean.com/l6vnzx0rroy4)
