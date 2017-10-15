@@ -21,11 +21,23 @@ original: true
 ```
 Email or Serial Key: myluamas@gmail.com
 Registration Key: VW1wR2RGbFZUWGhqZWtaMFpWZDRNVmxYTVdoak1FSnVZbGRHY0dKRE5XcGlNakZFVFZSck5VOVVRWGxNZWtFMFRIcEpkMDFVWXowPQ==
-Activation code: STARTTIMEGMT1502279970386-1503373975122
+Activation code: 下载注册机计算
 ```
 
 
 
-`Activation code:`需要自己计算公式为：STARTTIMEGMT + 13位毫秒时间戳 + 过期时间（这里可以直接填写1503373975122）
+#[下载注册机](https://uploadocean.com/wvk52o2n033o)
 
-[下载注册机](https://uploadocean.com/l6vnzx0rroy4)
+###注册机支持以下产品的注册
+
+0.LDAP Admin Tool(Professional Edition)
+
+1.LDAP Admin Tool(Standard Edition)
+
+2.AD Admin & Reporting Tool
+
+3.LDAP Plus AD HelpDesk Professional Tool
+
+4.LDAP Admin & Reporting Tool
+
+5.AD Admin Tool
