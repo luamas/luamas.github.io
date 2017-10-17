@@ -1,5 +1,5 @@
 ---
-title: idea ando jrebel license-server
+title: idea and jrebel license-server
 layout: post
 date: '2017-10-17 00:00:00'
 categories: license-server
