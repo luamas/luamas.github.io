@@ -1,8 +1,8 @@
 ---
 title: idea ando jrebel license-server
 layout: post
-date: '2017-08-09 00:00:00'
-categories: LDAP key
+date: '2017-10-17 00:00:00'
+categories: license-server
 tags: jrebel idea jetbrains license-server mybatis-plugins-server
 author: luamas
 original: true
