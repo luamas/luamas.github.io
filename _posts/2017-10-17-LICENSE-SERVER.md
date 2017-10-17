@@ -21,7 +21,7 @@ original: true
 
 
 文件下载地址(有广告，有下载不了的请自行登梯子)
-#[https://uploadocean.com/w2xtc2qfgyd9](https://uploadocean.com/w2xtc2qfgyd9)
+[https://uploadocean.com/w2xtc2qfgyd9](https://uploadocean.com/w2xtc2qfgyd9)
 
 下载程序后可以使用以下命令查看可选参数（mac是darwin）
 
