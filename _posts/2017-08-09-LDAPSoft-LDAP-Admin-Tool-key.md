@@ -12,17 +12,7 @@ original: true
 {:toc}
 
 最近由于用到`LDAPSoft-LDAP-Admin-Tool`这个工具软件，由于网上搜索了很久没有找到注册版的，作为一个屌丝的国人，没办法，只能自己手动搞了。
-终于把注册过程研究出来。现在贡献出注册码如下
-
-
-
-
-
-```
-Email or Serial Key: myluamas@gmail.com
-Registration Key: VW1wR2RGbFZUWGhqZWtaMFpWZDRNVmxYTVdoak1FSnVZbGRHY0dKRE5XcGlNakZFVFZSck5VOVVRWGxNZWtFMFRIcEpkMDFVWXowPQ==
-Activation code: 下载注册机计算
-```
+终于把注册过程研究出来。现在贡献出注册码如下自行查看
 
 
 
@@ -30,14 +20,14 @@ Activation code: 下载注册机计算
 
 ###注册机支持以下产品的注册
 
-0.LDAP Admin Tool(Professional Edition)
+0.LDAP Admin Tool(Professional Edition)([点击获取激活码](http://ldap.luamas.com/ldap?t=0))
 
-1.LDAP Admin Tool(Standard Edition)
+1.LDAP Admin Tool(Standard Edition)([点击获取激活码](http://ldap.luamas.com/ldap?t=1))
 
-2.AD Admin & Reporting Tool
+2.AD Admin & Reporting Tool([点击获取激活码](http://ldap.luamas.com/ldap?t=2))
 
-3.LDAP Plus AD HelpDesk Professional Tool
+3.LDAP Plus AD HelpDesk Professional Tool([点击获取激活码](http://ldap.luamas.com/ldap?t=3))
 
-4.LDAP Admin & Reporting Tool
+4.LDAP Admin & Reporting Tool([点击获取激活码](http://ldap.luamas.com/ldap?t=4))
 
-5.AD Admin Tool
+5.AD Admin Tool([点击获取激活码](http://ldap.luamas.com/ldap?t=5))
