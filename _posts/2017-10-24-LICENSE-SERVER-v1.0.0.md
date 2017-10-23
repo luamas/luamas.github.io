@@ -1,5 +1,5 @@
 ---
-title: idea and jrebel license-server 1.0.0发布
+title: license-server 1.0.0发布
 layout: post
 date: '2017-10-24 00:00:00'
 categories: license-server
