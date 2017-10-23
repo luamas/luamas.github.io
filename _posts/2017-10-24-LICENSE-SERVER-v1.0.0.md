@@ -39,6 +39,8 @@ original: true
 链接:[https://pan.baidu.com/s/1kUI2Qgf](https://pan.baidu.com/s/1kUI2Qgf) 密码:s7rv
 
 
+md5:7dfb5ccf9b1b0abcbded6c9cda674525  license-server(v1.0.0).tar.gz
+
 默认端口号为22508
 
 ## idea和jetbrain系列产品的license-server方式注册
