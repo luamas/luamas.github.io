@@ -31,7 +31,7 @@ original: true
 
 #### MEGA
 
-[https://uploadocean.com/w2xtc2qfgyd9](https://uploadocean.com/w2xtc2qfgyd9)
+[https://mega.nz/#!Mup0kDBB!vgjtqBP49diV3xy8vMX_gZ2U8eRh3t0NWylUcnr5GbA](https://mega.nz/#!Mup0kDBB!vgjtqBP49diV3xy8vMX_gZ2U8eRh3t0NWylUcnr5GbA)
 
 
 #### 百度网盘：

@@ -25,20 +25,20 @@ original: true
 
 #### uploadocean:
 
-[https://uploadocean.com/253cbpaxkrxj](https://uploadocean.com/253cbpaxkrxj)
+[https://uploadocean.com/4zoep9sgf4ll](https://uploadocean.com/4zoep9sgf4ll)
 
 
 #### MEGA
 
-[https://uploadocean.com/w2xtc2qfgyd9](https://uploadocean.com/w2xtc2qfgyd9)
+[https://mega.nz/#!8nJX0D6Y!sMuEbBPI0g2S2VdRCfQUYFgpqCzO3kV9DfAz9_2N500](https://mega.nz/#!8nJX0D6Y!sMuEbBPI0g2S2VdRCfQUYFgpqCzO3kV9DfAz9_2N500)
 
 
 #### 百度网盘：
 
-链接:[https://pan.baidu.com/s/1kUI2Qgf](https://pan.baidu.com/s/1kUI2Qgf) 密码:s7rv
+链接:[https://pan.baidu.com/s/1cjjEuq](https://pan.baidu.com/s/1cjjEuq) 密码:midq
 
 
-md5:7dfb5ccf9b1b0abcbded6c9cda674525  license-server(v1.0.0).tar.gz
+md5:394a42e259baf50273aeeede5392bf78  license-server(v1.0.1).tar.gzz
 
 默认端口号为22508
 
