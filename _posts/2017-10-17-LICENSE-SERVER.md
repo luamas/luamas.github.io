@@ -52,5 +52,18 @@ original: true
 jrebel支持离线激活和在线切换，之前有看到lanyus的是没有这个功能的，所以自己写了一个出来。
 
 
+
+# 来杯咖啡
+
+AliPay
+
+![Alipay](http://blog.luamas.com/images/aliPay.jpg)
+
+WXPay
+
+![WechatPay](http://blog.luamas.com/images/wechatPay.jpg)
+
+
+
 如有侵权请联系删除，谢谢！
 

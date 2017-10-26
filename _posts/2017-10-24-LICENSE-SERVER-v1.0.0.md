@@ -47,6 +47,10 @@ md5:7dfb5ccf9b1b0abcbded6c9cda674525  license-server(v1.0.0).tar.gz
 
 ## jrebel和zeroturnaround系列产品的license-server方式注册
 
+在界面中点击Tools->Jrebel For Android->I have a license,选择到Connect to License Server, Email 中随意填写一个邮箱,在Group URL中填写http://x.x.x.x:22508/luamas
+(x.x.x.x是域名地址，如果是本地则可以使用127.0.0.1,22508是端口号，默认为22508),勾选 I agree with terms & conditions of the License Agreement, 点击 Activate JRebel for Android 即可激活.
+
+
 ## LDAPSoft系列软件的注册
 
 *增加对ldap的支持，具体查看*
@@ -85,6 +89,20 @@ mybatis插件需要用nginx做反向代理到域名www.codesmagic.com，并且�
 # docker服务
 
 [https://hub.docker.com/r/luamas/license-server/](https://hub.docker.com/r/luamas/license-server/)
+
+
+# 来杯咖啡
+
+AliPay
+
+![Alipay](http://blog.luamas.com/images/aliPay.jpg)
+
+WXPay
+
+![WechatPay](http://blog.luamas.com/images/wechatPay.jpg)
+
+
+
 
 如有侵权请联系删除，谢谢！
 
