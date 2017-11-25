@@ -109,9 +109,34 @@ mybatis插件需要用nginx做反向代理到域名www.codesmagic.com，并且�
 增加LICENSE-SERVER_USERNAME环境变量修改用户名
 
 
-# docker服务
+# docker服务(作废，已被和谐)
 
 [https://hub.docker.com/r/luamas/license-server/](https://hub.docker.com/r/luamas/license-server/)
+
+Dockerfile如下：
+
+
+```
+FROM scratch
+ADD license-server/license-server_linux_amd64 /license-server
+ENTRYPOINT ["/license-server"]
+
+```
+
+构建,将Dockerfile放在license-server的同级目录
+
+```
+docker build --rm=true -t luamas/jetbrains-license-server:latest --file Dockerfile .
+```
+
+运行
+
+```
+docker run --restart=always \
+-p 22508:22508 \
+--name license-server -d luamas/jetbrains-license-server
+```
+
 
 
 # 来杯咖啡
