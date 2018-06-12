@@ -15,6 +15,12 @@ original: true
 而入口点正是`SpringApplication.run(Application.class, args)`这个方法。下面我们一步步看看SpringApplication中的方法。
 
 
+
+
+
+
+
+
 下面是静态run方法
 
 ```java

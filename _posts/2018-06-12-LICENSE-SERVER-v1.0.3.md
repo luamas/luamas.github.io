@@ -16,7 +16,7 @@ original: true
 查看1.0.1版本
 [http://blog.luamas.com/2017/10/24/LICENSE-SERVER-v1.0.1/](http://blog.luamas.com/2017/10/24/LICENSE-SERVER-v1.0.1/)
 查看1.0.2版本
-[http://blog.luamas.com/2018/04/28/LICENSE-SERVER-v1.0.2/](http://blog.luamas.com/2018/04/28/LICENSE-SERVER-v1.0.2/)
+[http://blog.luamas.com/2018/06/12/LICENSE-SERVER-v1.0.2/](http://blog.luamas.com/2018/06/12/LICENSE-SERVER-v1.0.2/)
 
 
 
