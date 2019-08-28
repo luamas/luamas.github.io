@@ -63,12 +63,21 @@ unzip sonarqube-7.9.1.zip
 ```
 
 ### 更改配置文件
+
+更改数据库配置
 ```bash
 #这里依然在sonarqube用户下修改
 vim sonarqube-7.9.1/conf/sonar.properties
 sonar.jdbc.username=sonar
 sonar.jdbc.password=sonar
 sonar.jdbc.url=jdbc:postgresql://127.0.0.1/sonar
+```
+
+更改jdk配置
+```bash
+#这里依然在sonarqube用户下修改
+vim sonarqube-7.9.1/conf/wrapper.conf
+wrapper.java.command=/usr/lib/jvm/java-11/bin/java
 ```
 
 ### 添加系统服务
