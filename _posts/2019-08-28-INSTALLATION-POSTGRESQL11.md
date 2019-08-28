@@ -30,6 +30,12 @@ sudo yum list | grep postgresql
 sudo yum install -y postgresql11-contrib postgresql11-server
 ```
 
+
+
+
+
+
+
 ### 初始化数据库
 ```bash
 sudo /usr/pgsql-11/bin/postgresql-11-setup initdb
