@@ -17,6 +17,7 @@ original: true
 地址：https://yum.postgresql.org/repopackages.php
 
 这里我的是centos7所以我选择的
+
 https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 
 ### 安装
@@ -60,11 +61,13 @@ vi /var/lib/pgsql/11/data/pg_hba.conf
 ```
 
 此处将三行带有replication注释掉，并在行尾添加如下（METHOD使用trust为可信任方法）
+
 `host     all             all             0.0.0.0/0               trust`
 
 ```bash
 vi /var/lib/pgsql/11/data/postgresql.conf
 ```
+
 `增加如下listen_addresses = '*'`
 
 退出postgres用户，重启服务
