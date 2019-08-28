@@ -1,7 +1,7 @@
 ---
-title: 安装sonarqube7.9.1
+title: Centos7安装sonarqube7.9.1
 layout: post
-date: '2018-09-29 12:00:00'
+date: '2018-09-28 13:00:00'
 categories: centos
 tags: sonarqube7 sonarqube sonar postgresql
 author: luamas
@@ -13,7 +13,7 @@ original: true
 
 
 ### 准备工作
-#### 安装openjdk11(sonar7.9.1需要jdk11)
+#### 安装openjdk11(sonar，7.8支持8和11，而7.9需要jdk11支持)
 ```bash
 sudo yum search java-11
 sudo yum install java-11-openjdk-devel
