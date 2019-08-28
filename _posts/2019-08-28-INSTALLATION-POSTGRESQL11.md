@@ -2,7 +2,7 @@
 title: Centos安装postgresql11最新版
 layout: post
 date: '2019-08-28 12:00:00'
-categories: license-server
+categories: centos
 tags:  postgresql11 postgresql
 author: luamas
 original: true
