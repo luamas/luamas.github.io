@@ -15,8 +15,8 @@ original: true
 ### 准备工作
 #### 安装openjdk8(2.164以后版本支持jdk11，由于有些插件的兼容性问题，所以暂时选择jdk8版本)
 ```bash
-sudo yum search java-8
-sudo yum install java-8-openjdk-devel
+sudo yum search java-1.8.0
+sudo yum install java-1.8.0-openjdk-devel
 ```
 
 #### 添加jenkins源
