@@ -17,17 +17,21 @@ original: true
 
 源码管理选择git，在Repository URL输入git地址，
 在Credentials点击添加凭据类型我们选择`SSH Username with private key`，Username随意填写，这里只是
-一个标识这里我起名为jenkins
+一个标识这里我起名为jenkins（需要在git网页上面添加部署公钥）
 
 在jenkins所在服务器输入ssh-keygen生成ssh私钥和公钥
 
 
 从jenkins拿到ssh key的私钥`cat ~/.ssh/id_rsa`，选择Enter directly-> Add粘贴即可，Passphrase值在你生成ssh key的时候会让输入，一般留空即可
 
+Branch Specifier 我们来选择分支默认`*/master`,master分支
 
-在git网页上面增加部署公钥即可
 
-在jenkins页面保存即可，手动点击立即构建即可触发下拉代码
+在构建位置增加gradle脚本，因为我的项目是基于gradle的项目。Tasks，填写`build -x test`，忽略测试并构建
+
+点击保存
+
+在手动点击立即构建即可触发下拉代码并开始构建
 
 
 
