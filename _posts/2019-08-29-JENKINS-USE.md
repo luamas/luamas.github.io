@@ -34,6 +34,19 @@ Branch Specifier 我们来选择分支默认`*/master`,master分支
 在手动点击立即构建即可触发下拉代码并开始构建
 
 
+在jenkins插件管理—>可选插件搜索gitlab关键字，安装GitLab API ，Gitlab Authentication plugin，Gitlab Hook Plugin，GitLab Plugin。
+
+
+勾选构建触发器的Build when a change is pushed to GitLab. GitLab webhook选项
+将url复制到gitlab的webhook即可触发自动化
+
+系统管理->Gitlab->Enable authentication for '/project' end-point取消勾选点击保存
+
+在项目中触发提交事件即可触发
+
+
+
+
 
 
 
