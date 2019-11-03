@@ -11,7 +11,7 @@ type: page
 
 ## 关于我
 
-1, 6 years of JAVA WEB actual development experience
+1, 8 years of JAVA WEB actual development experience
 
 2, Familiar with Tomcat, Nginx server
 
