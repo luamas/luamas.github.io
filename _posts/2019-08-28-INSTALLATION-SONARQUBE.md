@@ -1,7 +1,7 @@
 ---
 title: Centos7安装sonarqube7.9.1
 layout: post
-date: '2019-09-28 13:00:00'
+date: '2019-08-28 13:00:00'
 categories: centos
 tags: sonarqube7 sonarqube sonar postgresql
 author: luamas

@@ -1,7 +1,7 @@
 ---
 title: jenkins系统工具设置
 layout: post
-date: '2018-09-29 13:00:00'
+date: '2018-08-29 13:00:00'
 categories: centos
 tags: jenkins jenkins2
 author: luamas

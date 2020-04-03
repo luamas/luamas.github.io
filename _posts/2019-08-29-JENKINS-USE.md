@@ -1,7 +1,7 @@
 ---
 title: jenkins+git使用
 layout: post
-date: '2018-09-29 14:00:00'
+date: '2018-08-29 14:00:00'
 categories: centos
 tags: jenkins jenkins2
 author: luamas

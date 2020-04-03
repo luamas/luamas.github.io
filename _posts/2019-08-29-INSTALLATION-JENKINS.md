@@ -1,7 +1,7 @@
 ---
 title: Centos7安装jenkins2
 layout: post
-date: '2018-09-29 12:00:00'
+date: '2018-08-29 12:00:00'
 categories: centos
 tags: jenkins jenkins2
 author: luamas
@@ -23,13 +23,27 @@ sudo yum install java-1.8.0-openjdk-devel
 ```bash
 #长期支持版本
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+#如果不检查gpg可以不导入
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+
+
 #非长期支持版本
 #sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+#如果不检查gpg可以不导入
 #sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
 ```
 
+#### 更新jenkins源为国内源
+```bash
+vi /etc/yum.repos.d/jenkins.repo
 
+[jenkins]
+name=Jenkins-stable
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/jenkins/redhat-stable
+gpgcheck=0 
+
+#将 gpgcheck变为0，不检查
+```
 
 
 

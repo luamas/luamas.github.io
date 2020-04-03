@@ -1,7 +1,7 @@
 ---
 title: jenkins+sonarscanner
 layout: post
-date: '2018-09-29 16:30:00'
+date: '2018-08-29 16:30:00'
 categories: centos
 tags: jenkins jenkins2 sonar-scanner
 author: luamas
