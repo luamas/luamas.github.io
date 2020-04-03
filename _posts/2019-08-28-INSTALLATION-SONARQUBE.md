@@ -58,8 +58,10 @@ sudo yum install -y unzip wget vim
 sudo chown -R sonarqube:sonarqube /home/sonarqube/
 #切换到sonarqube用户
 sudo su - sonarqube
+#下载sonarqube，这里如果下载比较慢建议提前在本地下载上传到服务器，在root用户下执行sudo chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-8.2.0.32929.zip命令即可
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.2.0.32929.zip
 #解压sonarqube
-unzip sonarqube-7.9.1.zip
+unzip sonarqube-8.2.0.32929.zip
 ```
 
 ### 更改配置文件
@@ -67,7 +69,7 @@ unzip sonarqube-7.9.1.zip
 更改数据库配置
 ```bash
 #这里依然在sonarqube用户下修改
-vim sonarqube-7.9.1/conf/sonar.properties
+vim sonarqube-8.2.0.32929/conf/sonar.properties
 sonar.jdbc.username=sonar
 sonar.jdbc.password=sonar
 sonar.jdbc.url=jdbc:postgresql://127.0.0.1/sonar
@@ -76,7 +78,7 @@ sonar.jdbc.url=jdbc:postgresql://127.0.0.1/sonar
 更改jdk配置
 ```bash
 #这里依然在sonarqube用户下修改
-vim sonarqube-7.9.1/conf/wrapper.conf
+vim sonarqube-8.2.0.32929/conf/wrapper.conf
 wrapper.java.command=/usr/lib/jvm/java-11/bin/java
 ```
 
@@ -84,7 +86,7 @@ wrapper.java.command=/usr/lib/jvm/java-11/bin/java
 ```bash
 #退出sonarqube用户
 exit
-sudo ln -s /home/sonarqube/sonarqube-7.9.1/bin/linux-x86-64/sonar.sh  /usr/bin/sonar
+sudo ln -s /home/sonarqube/sonarqube-8.2.0.32929/bin/linux-x86-64/sonar.sh  /usr/bin/sonar
 sudo vim /etc/init.d/sonar
 ```
 
@@ -127,8 +129,9 @@ sudo service sonar start
 点击releases下载，我这里下载的sonar-l10n-zh-plugin-1.29.jar
 ````bash
 sudo su - sonarqube
-wget https://github.com/SonarQubeCommunity/sonar-l10n-zh/releases/download/sonar-l10n-zh-plugin-1.29/sonar-l10n-zh-plugin-1.29.jar -P sonarqube-7.9.1/extensions/plugins
+wget https://github.com/SonarQubeCommunity/sonar-l10n-zh/releases/download/sonar-l10n-zh-plugin-8.2/sonar-l10n-zh-plugin-8.2.jar -P sonarqube-8.2.0.32929/extensions/plugins
 exit
+sudo chkconfig --add sonar
 sudo service sonar restart
 ````
 
