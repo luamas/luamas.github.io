@@ -128,10 +128,10 @@ sudo service sonar start
 
 ### 拓展中文插件
 [sonar中文插件](https://github.com/SonarQubeCommunity/sonar-l10n-zh)
-点击releases下载，我这里下载的sonar-l10n-zh-plugin-1.29.jar
+点击releases下载，我这里下载的sonar-l10n-zh-plugin-9.8
 ````bash
 sudo su - sonarqube
-wget https://github.com/SonarQubeCommunity/sonar-l10n-zh/releases/download/sonar-l10n-zh-plugin-8.2/sonar-l10n-zh-plugin-8.2.jar -P sonarqube-8.2.0.32929/extensions/plugins
+wget https://github.com/xuhuisheng/sonar-l10n-zh/releases/download/sonar-l10n-zh-plugin-9.8/sonar-l10n-zh-plugin-9.8.jar -P sonarqube-9.8.0.63668/extensions/plugins
 exit
 sudo chkconfig --add sonar
 sudo service sonar restart
