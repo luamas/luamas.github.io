@@ -1,9 +1,9 @@
 ---
-title: Centos7安装sonarqube7.9.1
+title: Centos7安装sonarqube9.8
 layout: post
 date: '2019-08-28 13:00:00'
 categories: centos
-tags: sonarqube7 sonarqube sonar postgresql
+tags: sonarqube9 sonarqube sonar postgresql
 author: luamas
 original: true
 ---
@@ -13,7 +13,8 @@ original: true
 
 
 ### 准备工作
-#### 安装openjdk11(sonar，7.8支持8和11，而7.9需要jdk11支持)
+#### 安装openjdk11(sonar，7.8支持8和11，而7.9-9.0需要jdk11支持，当前直接安装jdk17版本即可)
+这里为了方便使用系统自带的jdk11
 ```bash
 sudo yum search java-11
 sudo yum install java-11-openjdk-devel
@@ -41,6 +42,7 @@ useradd sonarqube
 ```
 
 ### 优化系统参数
+这里如果不进行优化可能会报elasticsearch的错误
 ```bash
 sudo sysctl -w vm.max_map_count=262144
 sudo sysctl -w fs.file-max=65536
@@ -59,9 +61,9 @@ sudo chown -R sonarqube:sonarqube /home/sonarqube/
 #切换到sonarqube用户
 sudo su - sonarqube
 #下载sonarqube，这里如果下载比较慢建议提前在本地下载上传到服务器，在root用户下执行sudo chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-8.2.0.32929.zip命令即可
-wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.2.0.32929.zip
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.8.0.63668.zip
 #解压sonarqube
-unzip sonarqube-8.2.0.32929.zip
+unzip sonarqube-9.8.0.63668.zip
 ```
 
 ### 更改配置文件
@@ -69,7 +71,7 @@ unzip sonarqube-8.2.0.32929.zip
 更改数据库配置
 ```bash
 #这里依然在sonarqube用户下修改
-vim sonarqube-8.2.0.32929/conf/sonar.properties
+vim sonarqube-9.8.0.63668/conf/sonar.properties
 sonar.jdbc.username=sonar
 sonar.jdbc.password=sonar
 sonar.jdbc.url=jdbc:postgresql://127.0.0.1/sonar
@@ -78,7 +80,7 @@ sonar.jdbc.url=jdbc:postgresql://127.0.0.1/sonar
 更改jdk配置
 ```bash
 #这里依然在sonarqube用户下修改
-vim sonarqube-8.2.0.32929/conf/wrapper.conf
+vim sonarqube-9.8.0.63668/conf/wrapper.conf
 wrapper.java.command=/usr/lib/jvm/java-11/bin/java
 ```
 
@@ -86,7 +88,7 @@ wrapper.java.command=/usr/lib/jvm/java-11/bin/java
 ```bash
 #退出sonarqube用户
 exit
-sudo ln -s /home/sonarqube/sonarqube-8.2.0.32929/bin/linux-x86-64/sonar.sh  /usr/bin/sonar
+sudo ln -s /home/sonarqube/sonarqube-9.8.0.63668/bin/linux-x86-64/sonar.sh  /usr/bin/sonar
 sudo vim /etc/init.d/sonar
 ```
 
